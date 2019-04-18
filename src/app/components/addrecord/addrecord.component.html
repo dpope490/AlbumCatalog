@@ -1,3 +1,18 @@
-<p>
-  addrecord works!
-</p>
+<br>
+<mat-card>
+  <mat-card-title>
+    Add a record to the catalog
+  </mat-card-title>
+  <mat-card-content>
+    <form class="addrecord">
+      <mat-form-field class="full-width">
+        <input matInput placeholder="Album Name" [(ngModel)]="album" name="albumName">
+      </mat-form-field>
+      <mat-form-field class="full-width">
+        <input matInput placeholder="Artist" [(ngModel)]="artist" name="artistName">
+      </mat-form-field>
+      Add Album Image:<br><br>
+      <input type="file" (change)="onFileChanged($event)" name="albumCover">
+    </form>
+  </mat-card-content>
+</mat-card>
