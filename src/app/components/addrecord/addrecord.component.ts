@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddrecordComponent implements OnInit {
 
+  album = '';
+  artist = '';
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onFileChanged(event) {
+    const file = event.target.files[0]
   }
 
 }

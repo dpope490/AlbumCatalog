@@ -1,0 +1,20 @@
+mat-card {
+  width: 500px;
+  height: 225px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: 2px solid indigo;
+}
+
+.full-width {
+  width: 100%;
+}
+
+button {
+  width: 50%;
+  font-size: 16px;
+}
+
