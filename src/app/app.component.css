@@ -1,0 +1,32 @@
+mat-toolbar {
+  color: white;
+  padding-left: 8px;
+  height: 70px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.brand {
+  font-size: 42px;
+}
+
+.toolbar {
+  padding-top: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+mat-icon {
+  font-size: 32px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+* {
+  background-color: transparent;
+}
